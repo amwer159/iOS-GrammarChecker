@@ -11,7 +11,8 @@ import SwiftUI
 struct grammarCheckerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GrammarView()
+                .environment(\.colorScheme, .light)
         }
     }
 }
